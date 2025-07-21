@@ -8,6 +8,11 @@ const userSchema = new mongoose.Schema({
     totalPoints: {
         type: Number,
         default: 0
+    },
+
+    avatarUrl:{
+        type:String,
+        default:'https://i.imgur.com/placeholder.png'
     }
 });
 
