@@ -26,8 +26,8 @@ Backend Setup:
 1. Go to /backend folder.
 2. Install dependencies:
 npm install
-4. Create a .env file and add:
- mongodb+srv://suhaniyadav778:<password>@cluster0.mongodb.net/leaderboardDB
+3. Create a .env file and add:
+  MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/leaderboardDB
 4. Start the backend server:
 npm start
 
